@@ -16,7 +16,7 @@ import type {
 
 const API = axios.create({
   baseURL: import.meta.env.PROD
-    ? 'https://ecommerce-api-ts-production.up.railway.app' 
+    ? 'https://ecommerce-api-ts-production.up.railway.app/api' 
     : 'http://localhost:5000/api',
   headers: {
     'Content-Type': 'application/json',
